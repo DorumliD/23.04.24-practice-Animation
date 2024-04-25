@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vh;
+}
+body{
+    background-color: rgb(29, 29, 80);
+}
+.spedometr{
+    width: 500px;
+    height: 500px;
+    border:5px solid rgb(216, 201, 201);
+    border-radius: 50%;
+    /* position: relative;
+    left: 250px;
+    top: 50px; */
+    
+}
+.aylana{
+    width: 490px;
+    height: 490px;
+    border: 10px solid  rgb(29, 29, 80);
+    border-radius: 50%;
+}
+.fuel{
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    position: relative;
+    bottom: 300px;
+    left: 880px;
+}
+.stick1{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 228px;
+    left: 453px;
+    transform: rotate(2deg);
+    
+}
+.stick2{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 195px;
+    left: 435px;
+    
+}
+.stick3{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 170px;
+    left: 30px;
+    transform: rotate(340deg);
+}
+.stick4{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 208px;
+    left: 18px;
+    transform: rotate(350deg);
+}
+.stick5{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 252px;
+    left: 10.8px;
+    transform: rotate(355deg);
+}
+.stick6{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 295px;
+    left: 10px;
+}
+.stick7{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 335px;
+    left: 18px;
+    transform: rotate(5deg);
+}
+.stick8{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 375px;
+    left: 30px;
+    transform: rotate(10deg);
+}
+.stick9{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 410px;
+    left: 48px;
+    transform: rotate(23deg);
+}
+.stick10{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 450px;
+    left: 75px;
+    transform: rotate(28deg);
+}
+.stick11{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 475px;
+    left: 105px;
+    transform: rotate(38deg);
+}
+.stick12{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 510px;
+    left: 145px;
+    transform: rotate(55deg);
+}
+.stick13{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 180px;
+    bottom: 520px;
+    transform: rotate(75deg);
+}
+.stick14{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 230px;
+    bottom: 535px;
+    transform: rotate(90deg);
+}
+.stick15{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 265px;
+    bottom: 530px;
+    transform: rotate(98deg);
+}
+.stick16{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 315px;
+    bottom: 530px;
+    transform: rotate(105deg);
+}
+.stick17{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 345px;
+    bottom: 505px;
+    transform: rotate(112deg);
+}
+.stick18{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 390px;
+    bottom: 490px;
+    transform: rotate(120deg);
+}
+.stick19{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 408px;
+    bottom: 450px;
+    transform: rotate(140deg);
+}
+.stick20{
+    width: 25px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 445px;
+    bottom: 410px;
+    transform: rotate(155deg);
+}
+.stick21{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    left: 440px;
+    bottom: 365px;
+    transform: rotate(180deg);
+}
+.strelka{
+    background-color: red;
+    width: 190px;
+    height: 8px;
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+    bottom: 310px;
+    transform: rotate(170.5deg);
+    transform-origin: right bottom;
+    animation-name: spedometr;
+    animation-duration: 10s;
+    animation-timing-function: steps(7);
+}
+
+
+.aylana1{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 42, 42);
+    border-radius: 50%;
+    position: relative;
+    bottom: 340px;
+    left: 218px;
+}
+.number2{
+    font-size: 30px;
+    position: relative;
+    left: 68px;
+    bottom: 290px;
+}
+.number3{
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    bottom: 355px;
+    transform: rotate(25deg);
+}
+.number4{
+    font-size: 30px;
+    position: relative;
+    bottom: 423px;
+    left: 8px;
+}
+.number5{
+    font-size: 30px;
+    position: relative;
+    left: px;
+    bottom: 480px;
+    transform: rotate(-30deg);
+}
+.number6{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 18px;
+    bottom: 525px;
+}
+.number7{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 28px;
+    bottom: 550px;   
+}
+.number8{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 55px;
+    bottom: 550px;
+}
+.number9{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 78px;
+    bottom: 515px;
+}
+.number10{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 80px;
+    bottom: 455px;
+}
+.number11{
+    font-size: 30px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 45px;
+    bottom: 385px;
+}
+.number1{
+    transform: rotate(-20deg);
+    position: relative;
+    left: -5px;
+    bottom: 310px;
+    font-size: 30px;
+}
+@keyframes spedometr {
+    0%{
+        background-color: blue;
+        transform: rotate(-3deg);
+
+    }
+    10%{
+        background-color: rgb(23, 0, 128);
+        transform: rotate(18deg);
+    }
+    20%{        
+        background-color: rgb(52, 25, 201);
+        transform: rotate(36deg) scaleX(1.2);
+    }
+    30%{
+        background-color: rgb(48, 51, 204);
+        transform: rotate(54deg) scaleX(1.3);
+        
+    }
+    40%{
+        background-color: rgb(87, 87, 221);
+        transform: rotate(72deg) scaleX(1.4);
+    }
+    50%{
+        background-color: rgb(205, 216, 106);
+        transform: rotate(90deg) scaleX(1.5);
+        
+    }
+    60%{
+        background-color: rgb(223, 223, 52);
+        transform: rotate(108deg) scaleX(1.4);
+    }
+    70%{
+        background-color: yellow;
+        transform: rotate(126deg) scaleX(1.3);
+    }
+    80%{
+        background-color: rgb(199, 76, 76);
+        transform: rotate(144deg) scaleX(1.2);
+    }
+    90%{
+        background-color: rgb(216, 52, 52);
+        transform: rotate(162deg) scaleX(1.1);
+    }
+    100%{
+        background-color: red;
+        transform: rotate(170.5deg);
+    }
+}
+.aylana3{
+    width: 295px;
+    height: 295px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+.tayoq1{
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 130px;
+    left: 7px;
+}
+.tayoq2{
+    width: 20px;
+    height: 5px;
+    background-color:gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 170px;
+    left: 7px;
+    transform: rotate(5deg);
+}
+.tayoq3{
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    bottom: 210px;
+    left: 15px;
+    transform: rotate(10deg);
+}
+.tayoq4{
+    width: 20px;
+    height: 5px;
+    background-color:gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 240px;
+    left: 45px;
+    transform: rotate(30deg);
+}
+.tayoq5{
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 260px;
+    left: 80px;
+    transform: rotate(60deg);
+}
+.tayoq6{
+    width: 20px;
+    height: 5px;
+    background-color:gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 275px;
+    left: 130px;
+    transform: rotate(90deg);
+}
+.tayoq7{
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 265px;
+    left: 170px;
+    transform: rotate(105deg);
+}
+.tayoq8{
+    width: 20px;
+    height: 5px;
+    background-color:gray;
+    border-radius: 5px;
+    position: absolute; 
+    bottom: 250px;
+    left: 220px;
+    transform: rotate(115deg);
+}
+.tayoq9{
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 210px;
+    left: 243px;
+    transform: rotate(140deg);
+}
